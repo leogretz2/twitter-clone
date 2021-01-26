@@ -1,0 +1,48 @@
+/* border-bottom with 8px height is a guy
+    (with color --twitter-background)*/
+
+.tweetBox {
+    padding-bottom: 10px;
+    border-bottom: 8px solid var(--twitter-background);
+    padding-right: 10px;
+}
+
+/*flex-direction column makes the things next to 
+    each other because each piece in its own 
+    column and they take up the whole width.*/
+.tweetBox > form {
+    display: flex;
+    flex-direction: column;
+}
+
+.tweetBox__input {
+    padding: 20px;
+    display: flex;
+}
+
+/* flex 1 so input field takes up more room 
+than the avatar*/
+.tweetBox__input > input {
+    flex: 1;
+    margin-left: 20px;
+    font-size: 20px;
+    border: none;
+}
+
+.tweetBox__imageInput {
+    border: none;
+    padding: 10px;
+}
+
+.tweetBox__tweetButton {
+    background-color: var(--twitter-color) !important;
+    border: none !important;
+    color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    height: 50px !important;
+    margin-top: 20px !important;
+    margin-left: auto !important
+}
+

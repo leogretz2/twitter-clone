@@ -1,0 +1,41 @@
+.sidebarOption {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* options for hovering over a sidebar option - 
+background is white, nonbackground is twitter color, 
+and transition between the two modes is 300 ms. */
+/* -border radius makes it a circle during hover over */
+/* - 100 ms for animation "slick" */
+
+/* these are color variables declared in the App.css body - call them with
+var(--var-name)*/
+.sidebarOption:hover{
+    /* background-color: var(--pink); */
+    background-color: #e8f5fe;
+    border-radius: 30px;
+    color: var(--twitter-color);
+    transition: color 100ms ease-out;
+}
+
+
+/*In the sidebar option, if you find a child that is
+a material ui icon, do the stuff following - gives each
+button a bit of padding. */
+.sidebarOption > .MuiSvgIcon-root {
+    padding: 20px;
+}
+
+/* any component in sidebar options with h2 
+tag underneath has these guys */
+.sidebarOption > h2 {
+    font-weight: 2000;
+    font-size: 20px;
+    margin-right: 20px
+}
+
+.sidebarOption--active {
+    color: var(--twitter-color)
+}
