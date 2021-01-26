@@ -10,7 +10,6 @@ function App() {
       <Sidebar />
       <Feed />
       <Widgets />
-      {/* tester */}
     </div>
   );
 }
