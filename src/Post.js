@@ -27,7 +27,7 @@ const Post = forwardRef(({
                         <h3>
                             {displayName}{" "}
                             <span className="post__headerSpecial">
-                            {/* one liner if guy here - cmp is always true so if verified true, 
+                            {/* one liner if statement guy here - cmp is always true so if verified true, 
                             it renders the verified symbol */}
                             {verified && <VerifiedUserIcon className="post__badge" />} @{username}
                             </span> 
