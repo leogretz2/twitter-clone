@@ -1,0 +1,38 @@
+NOTES ON TWITTER CLONE/REACT
+
+TODO:
+-search bubble top right turns white onClick.
+
+-endless div for feed
+
+---round out components (gifs in feed and widgetcontainer in widgets)
+
+---make tweetbox smaller
+
+---margin-left on Optional: Enter image URL
+
+include on resume
+
+UCLA@keysight.com
+
+Online Instructor Job Description: https://www.idtech.com/online-instructor
+Link to apply: https://www.idtech.com/jobs/seasonal-jobs
+Please send any questions to TAS@iDTech.com
+
+Firebase:
+
+-make project
+-make associated app and check Firebase hosting
+
+CSS:
+
+
+General:
+
+-make app with react-create-app
+
+-install all libraries you need through VSCode
+
+-Ctrl+alt+dwn = type on three lines
+
+

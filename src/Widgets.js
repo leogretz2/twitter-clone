@@ -20,15 +20,21 @@ function Widgets() {
 
                 <TwitterTimelineEmbed
                     sourceType="profile"
-                    screenName="guitarcenter"
-                    options={{ height: 300 }}
+                    screenName="Newsela"
+                    options={{ height: 300}}
                 />
 
                 <TwitterTimelineEmbed
                     sourceType="profile"
+                    screenName="guitarcenter"
+                    options={{ height: 300 }}
+                />
+
+                {/* <TwitterTimelineEmbed
+                    sourceType="profile"
                     screenName="NHL"
                     options={{ height: 400 }}
-                />
+                /> */}
 
                 {/* <TwitterTweetEmbed tweetId={"858551177860055040"} /> */}
                 

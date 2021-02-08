@@ -5,12 +5,17 @@
     padding-bottom: 10px;
 }
 
+/*takes up as much space as it can
+with these attrs*/
 .post__body {
     flex: 1;
     padding: 10px; 
  }
 
-.post__body > img {
+
+/*to do this > kinda deal, just do the class
+class that the cmp is most immediately in.*/
+.post__header > img {
     border-radius: 20px;
     /* border-radius: 20px !important; */
 }
@@ -28,7 +33,7 @@ across larger cmp*/
 }
 
 .post__header > h3 {
-    font-size: 5px;
+    font-size: 25px;
     margin-bottom: 5px;
 }
 
